@@ -1,71 +1,12 @@
-# Scorecard Admin Panel
+# React + Vite
 
-A modern admin panel built with React, TypeScript, and React Bootstrap.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- Modern and responsive design
-- TypeScript support
-- React Bootstrap components
-- React Router for navigation
-- Font Awesome icons
-- Dashboard with statistics cards
-- Sidebar navigation
-- Header with notifications and user menu
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Getting Started
+## Expanding the ESLint configuration
 
-### Prerequisites
-
-- Node.js (version 14 or higher)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository
-2. Install dependencies:
-```bash
-npm install
-# or
-yarn install
-```
-
-3. Start the development server:
-```bash
-npm start
-# or
-yarn start
-```
-
-The application will open in your default browser at `http://localhost:3000`.
-
-## Available Scripts
-
-- `npm start` - Runs the app in development mode
-- `npm test` - Launches the test runner
-- `npm run build` - Builds the app for production
-- `npm run eject` - Ejects from Create React App
-
-## Project Structure
-
-```
-src/
-  ├── components/
-  │   └── layout/
-  │       ├── Header.tsx
-  │       └── Sidebar.tsx
-  ├── pages/
-  │   └── Dashboard.tsx
-  ├── App.tsx
-  ├── App.css
-  ├── index.tsx
-  └── index.css
-```
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a new Pull Request
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
